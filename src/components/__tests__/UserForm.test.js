@@ -1,5 +1,5 @@
 import React from "react";
-import UserForm from "./components/UserForm";
+import UserForm from "../UserForm";
 import { test, expect, jest } from "@jest/globals";
 import { render, screen } from "@testing-library/react";
 import user from "@testing-library/user-event";
